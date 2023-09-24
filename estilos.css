@@ -24,6 +24,8 @@ a{
     
 }
 
+
+/*? MENU HORIZONTAL */
 .menu-horizontal{
     width: 100%;
     display: flex;
@@ -90,13 +92,13 @@ a{
 
 .img{
     position: relative;
-    right: 540px;
+    right: 470px;
     cursor: pointer;
 }
 
 .icon-barra{
     position: relative;
-    right: 560px;
+    right: 490px;
     color: #fff;
     cursor: pointer;
     font-size: 20px;
@@ -104,11 +106,43 @@ a{
 
 small{
     position: relative;
-    right: 540px;
+    right: 470px;
     top: -10px;
     color: #fff;
     font-size: 10px;
     color: #fff;
+}
+
+.enlace-horizontal{
+    width:5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.acceder{
+    height: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f0f0f;
+    margin-left: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    border: 1px solid #3ea5ff25;
+    color: #3ea6ff;
+}
+
+.icon-na{
+    color: #fff;
+    margin-left: 20px;
+}
+
+.icon-nav{
+    color: #3ea6ff;
+    margin-right: 10px;
 }
 
 /** HEADER */
@@ -251,13 +285,12 @@ hr{
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: 5px;
-    margin-bottom: 10px;
 }
 
 .visitas{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     gap: 10px;
 }
 
@@ -272,7 +305,6 @@ hr{
     width: 100%;
     color: #f1f1f1;
     font-size: 16px;
-    margin-bottom: 10px;
     margin-left: 20px;
 }
 
@@ -286,4 +318,8 @@ hr{
     margin-right: 10px;
     width: 5px;
     height: 5px;
+}
+
+.videos .icon{
+    margin-left: 2px;
 }
